@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Quizlet
+Bundle-Name: Project Cuttlefish | Quizlet
 Bundle-SymbolicName: com.divisors.projectcuttlefish.quizlet
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: com.divisors.projectcuttlefish.quizlet.Activator
@@ -8,3 +8,4 @@ Bundle-Vendor: DIVISORS
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: org.osgi.framework;version="1.3.0"
 Bundle-ActivationPolicy: lazy
+Export-Package: com.divisors.projectcuttlefish.quizlet.api

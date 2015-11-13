@@ -19,8 +19,8 @@ public class Activator implements BundleActivator {
 	 */
 	public void start(BundleContext bundleContext) throws Exception {
 		Activator.context = bundleContext;
-		Quizlet q = new Quizlet("user token".toCharArray());
-		q.queryAPI("GET", "users/mailmindlin");
+		Quizlet q = new Quizlet("cxjaWZ6QG3EseXMBWUbjUA6x7zKjt9hPVHyZyN4H".toCharArray());
+		q.queryAPI("GET", "users/mailmindlin", null);
 	}
 
 	/*

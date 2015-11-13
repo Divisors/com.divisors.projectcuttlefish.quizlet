@@ -39,3 +39,7 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+#if someone needs the javadoc or sources, they can download the files themselves
+**/*-javadoc.jar
+**/*-sources.jar
